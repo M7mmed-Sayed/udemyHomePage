@@ -19,7 +19,9 @@ a {
     font-size: 20px;
     padding: 7.5px 10px 7.5px 0;
 }
-
+.search {
+    margin-left: 0px;
+}
 .item {
     padding: 10px;
 }
@@ -33,6 +35,8 @@ a {
 .input[type='text'] {
     margin: auto;
     height: 100%;
+    width: 100%;
+    margin-right: 20px;
     font-size: 17px;
     text-align: left;
     border-radius: 10px;
@@ -113,8 +117,8 @@ a {
     margin: 0px 20px;
     padding: 2px 20px;
 }
-.course-continer{
-    margin-top: 70PX;
+.course-continer {
+    margin-top: 70px;
 }
 .explore {
     border: 2px solid black;
@@ -144,6 +148,14 @@ a:hover {
     margin-top: 8px;
     padding: 0 4px;
     border-radius: 10px;
+}
+.banner-data {
+    padding: 2em;
+    background-color: white;
+}
+.languageicon {
+    margin-top: auto;
+    color: aliceblue;
 }
 /* Tablet menu */
 @media all and (min-width: 700px) {
@@ -232,7 +244,7 @@ a:hover {
         display: inline-block;
         padding: 10px;
     }
-    
+
     .broad {
         margin: 0px 20px;
         padding: 2px 20px;
@@ -289,24 +301,24 @@ a:hover {
     }
     .item {
         order: 1;
+        width: auto;
         position: relative;
         display: block;
-        width: auto;
     }
     .button {
         order: 2;
+        width: 100%;
     }
-    .button.search {
-        display: block;
-        border-bottom: 1px #777 solid;
+    .searchinput {
+        width: auto;
     }
+
     .all {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-       
     }
     .main-content {
         height: auto;
