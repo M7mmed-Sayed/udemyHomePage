@@ -154,7 +154,7 @@ a:hover {
     background-color: white;
 }
 .languageicon {
-    margin-top: auto;
+    margin-top: .5%;
     color: aliceblue;
 }
 /* Tablet menu */
@@ -288,7 +288,7 @@ a:hover {
 /* Desktop menu */
 @media all and (min-width: 960px) {
     .menu {
-        align-items: flex-start;
+        align-items: center;
         flex-wrap: nowrap;
         background: none;
     }
@@ -302,17 +302,11 @@ a:hover {
     .item {
         order: 1;
         width: auto;
-        position: relative;
         display: block;
     }
     .button {
         order: 2;
-        width: 100%;
     }
-    .searchinput {
-        width: auto;
-    }
-
     .all {
         display: flex;
         flex-direction: row;
