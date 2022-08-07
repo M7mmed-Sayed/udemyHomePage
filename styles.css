@@ -97,6 +97,7 @@ a {
     margin-left: 20px;
     position: static;
     width: 70%;
+    box-shadow: 2px 2px 0px 0px grey;
     word-wrap: break-word;
     top: 10%;
     left: 2em;
