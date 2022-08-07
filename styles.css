@@ -33,7 +33,6 @@ a {
     color: #ccc;
 }
 .input[type='text'] {
-    margin: auto;
     height: 100%;
     width: 100%;
     margin-right: 20px;
@@ -154,7 +153,7 @@ a:hover {
     background-color: white;
 }
 .languageicon {
-    margin-top: .5%;
+    margin-top: 0.5%;
     color: aliceblue;
 }
 /* Tablet menu */
@@ -290,7 +289,8 @@ a:hover {
     .menu {
         align-items: center;
         flex-wrap: nowrap;
-        background: none;
+        display: flex;
+        justify-content: space-between;
     }
     .logo {
         width: 90px;
@@ -306,6 +306,12 @@ a:hover {
     }
     .button {
         order: 2;
+    }
+    .searchinput {
+        flex-grow: 100;
+    }
+    .buy-card {
+        margin-right: 20px;
     }
     .all {
         display: flex;
