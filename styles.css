@@ -8,8 +8,10 @@ body {
     align-content: center;
 }
 .header {
-    background: #777;
+    background: white;
     padding: 0 15px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 0px 1px black;
 }
 a {
     color: white;
@@ -127,6 +129,9 @@ a {
     background-color: #777;
     color: black;
 }
+a {
+    color: black;
+}
 a:hover {
     color: black;
 }
@@ -138,7 +143,7 @@ a:hover {
     padding: 0 4px;
 }
 .course {
-    width: 40%;
+    width: 200px;
     margin: 5px;
 }
 .course img {
@@ -155,7 +160,6 @@ a:hover {
 }
 .languageicon {
     margin-top: 0.5%;
-    color: aliceblue;
 }
 /* Tablet menu */
 @media all and (min-width: 700px) {
@@ -179,21 +183,26 @@ a:hover {
         margin: 5px 0;
     }
     .button a {
-        background: #0080ff;
+        background: black;
         border: 1px royalblue solid;
     }
     .button.secondary {
         border: 0;
+        color: black;
+    }
+    .sign a {
+        color: beige;
     }
     .button.secondary a {
         background: transparent;
-        border: 1px #0080ff solid;
+        border: 1px black solid;
     }
     .button a:hover {
+        background: #888888;
         text-decoration: none;
     }
     .button:not(.secondary) a:hover {
-        background: royalblue;
+        background: #888888;
         border-color: darkblue;
     }
     .main-content {
@@ -267,7 +276,7 @@ a:hover {
         padding: 0 4px;
     }
     .course {
-        width: 30%;
+        width: 200px;
         margin: 5px;
     }
     .course img {
@@ -315,6 +324,7 @@ a:hover {
         margin-right: 20px;
     }
     .all {
+        margin-top: 50px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -323,7 +333,7 @@ a:hover {
     }
     .main-content {
         height: auto;
-        width: 900px;
+        width: 1200px;
         max-width: 100%;
         display: flex;
         align-items: center;
@@ -395,16 +405,12 @@ a:hover {
         padding: 0 4px;
     }
     .course {
-        width: 18%;
+        width: 200px;
         margin: 5px;
     }
     .course img {
         width: 100%;
         height: 300px;
-        object-fit: cover;
-        margin-top: 8px;
-        padding: 0 4px;
-        border-radius: 10px;
     }
     .collection-continer-courses {
         margin: 0px 20px;
